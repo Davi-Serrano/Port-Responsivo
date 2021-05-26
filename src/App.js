@@ -1,12 +1,22 @@
+import react from "react"
+import { BrowserRouter} from "react-router-dom"
+
+
 import './App.css';
-import { Button } from 'reactstrap';
+
+import Routes from "./Routes"
+import Header from './componentes/header/index'
+import Footer from './componentes/footer/index'
 
 function App (props) {
   return (
-    <div className="App">
-      <h1>Olá</h1>
-      <Button color="danger">Danger!</Button>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Routes />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 };
 
