@@ -1,0 +1,9 @@
+html,body{
+    margin: 0;
+    padding:0 ;
+}
+.App{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 97% 30px;
+}

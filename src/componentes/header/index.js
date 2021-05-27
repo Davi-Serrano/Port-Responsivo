@@ -18,19 +18,19 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="primary" light expand="md">
-      <Link to="/"> <NavbarBrand className="mx-4">Davi Serrano</NavbarBrand> </Link>
+      <Navbar color="dark" light expand="md">
+      <Link to="/"> <NavbarBrand className="mx-4 text-light">Davi Serrano</NavbarBrand> </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav  className="mr-auto" navbar>
             <NavItem>
-              <Link to="/Stacks"> <NavLink> Stacks</NavLink> </Link>
+              <Link to="/Stacks"> <NavLink className="text-light" > Stacks</NavLink> </Link>
             </NavItem>
             <NavItem>
-             <Link to="/Sites"> <NavLink> Sites</NavLink> </Link>
+             <Link to="/Sites" > <NavLink className="text-light"> Sites</NavLink> </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap" className="text-light">GitHub</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -1,0 +1,16 @@
+
+.box1{   
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    text-align: center;  
+    padding-top: 1.5em;
+    color: white;
+}
+.box2{
+    background-color: black;
+    margin-top: 4em;
+    text-align: center;
+    color: white;
+}
