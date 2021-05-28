@@ -1,6 +1,6 @@
 
 .box1{   
-    background-color: black;
+    background: linear-gradient(white, black);
     display: flex;
     flex-direction: column;
     margin-top: 1.5em;
