@@ -63,15 +63,17 @@ const Stacks = (props) => {
         </tr>
         <tr>
           <th scope="row">9</th>
+          <td>API</td>
+          <td>Básico</td>
+          <td>&#9481;</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
           <td>GIT</td>
           <td>Básico</td>
           <td>&#9481;</td>
         </tr>
-   
-   
-   
-   
-      </tbody>
+     </tbody>
       
 
     </Table>
