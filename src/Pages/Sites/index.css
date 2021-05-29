@@ -1,0 +1,15 @@
+.Sites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    background-size: cover;
+    margin: 1em 0px;
+    background-color: wheat;
+}
+.row{
+    background-color: wheat;
+    padding: 1em; 
+    max-width: 90%;
+}
