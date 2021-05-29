@@ -1,4 +1,5 @@
 import "./index.css"
+import imagem from "./IMG/Cnv.jpg"
 
 function Page(){
 
@@ -26,7 +27,7 @@ function Page(){
     const lista = sites.map((site) =>
           <li> 
            <h4> {site.name} </h4>
-            {site.desc}  
+                {site.desc}  
           </li>
            
     )    
@@ -35,14 +36,15 @@ function Page(){
     return(
     <div className="Sites">
         <div className="info">
-            <h1>
-                Aqui vai as informações sobre o site
-            </h1>
+     
+        
+            <img src={imagem} />
+       
         </div>
         
         
         <div className="row">
-            <p> os nome: {lista} </p>
+        <p> os nome: {lista} </p>
                 
         </div>
 
