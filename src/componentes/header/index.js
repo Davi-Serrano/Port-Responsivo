@@ -30,7 +30,7 @@ const Header = (props) => {
              <Link to="/Sites" > <NavLink className="text-light"> Sites</NavLink> </Link>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap" className="text-light">GitHub</NavLink>
+              <NavLink href="https://github.com/DaviSerrano-FrontEnd" className="text-light">GitHub</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

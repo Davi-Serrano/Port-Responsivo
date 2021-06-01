@@ -1,30 +1,32 @@
 import "./index.css"
-import imagem from "./IMG/Cnv.jpg"
 
 function Page(){
 
         const sites =  [
             {
                 id: 1,
-                name: "site um",
-                img: "Foto1",
-                desc: "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. "
+                name: "CRUD",
+                desc: "Um site simples, mas totalmente funcional, lá mostro meu conhecimento usando express, mongoose e ejs para fazer um CRUD(Create, Read, Uptade e Delete). "
                 
             },
             {
                 id: 2,
-                name: "site dois",
-                img: "Foto2",
-                desc: "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. "
+                name: "Portfólio Canvas",
+                desc: "Esse portfólio feito no canvas envolveu muita lógica e Photshoop, mas o resultado final foi um dos mais incrìveis que eu já consegui obter, foi feito em HTML, CSS e Javascript"
             },
             {
                 id: 3,
-                name: "site tres",
-                img: "Foto3",
-                desc: "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. "
+                name: "Blog",
+                desc: "Um dos meus maiores trabalhos em termos de linha de códigos escrtio, é um blog completo onde aprendi a fazer muitas coisas no Node, como por exemplo: criar rotas de Admin, fazer registro de usuários e autenticação, envolveu muita pesquisa e horas de trabalho, o maior problema agora é ter tempo para popular o blog com textos"
+            },
+            {
+                id: 4,
+                name: "Conversor de Moedas",
+                desc: "Um site criado no React para treinar consumo de uma API Rest, o site faz uma solicitação para API para informar o valor da moeda quando o usuário clica no botão converter"
             }
         ] 
     const lista = sites.map((site) =>
+          
           <li> 
            <h4> {site.name} </h4>
                 {site.desc}  
@@ -34,18 +36,14 @@ function Page(){
 
     
     return(
-    <div className="Sites">
-        <div className="info">
-     
+    <div className="Sites">  
         
-            <img src={imagem} />
-       
-        </div>
-        
-        
-        <div className="row">
-        <p> os nome: {lista} </p>
-                
+        <div className="section">
+            <ul>
+                {lista}
+            </ul> 
+
+         <h4>Para ver mais projetos: <a href="https://github.com/DaviSerrano-FrontEnd">Acesse meu GitHub</a></h4>       
         </div>
 
     </div>

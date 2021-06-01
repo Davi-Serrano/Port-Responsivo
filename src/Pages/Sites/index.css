@@ -8,13 +8,15 @@ img{
   width: 99%;
   margin: 0 0.5%;
 }
-.info{
-    display: flex;
-    align-items: center;
-    
-}
-.row{
-    background-color: wheat;
+.section{
+    margin-top: 1em;
     padding: 1em; 
     max-width: 90%;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.section ul{
+    list-style: none;
+}
+.section ul li{
+    margin-top: 1em;
 }

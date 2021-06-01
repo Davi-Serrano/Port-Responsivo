@@ -9,13 +9,13 @@ const Section = () =>{
             <div className="box1">
 
                 <h1>
-                    Meu nome é
+                    Olá
                     <br />
-                    Davi Serrano, tenho 19 anos,
+                    Meu nome é Davi Serrano,
                     <br />
-                    Sou desenvoveldor-web Front-End Junior
+                    Sou Desenvoveldor-Web Front-End Junior
                     <br />
-                    e esse é meu portifólio
+                    e esse é meu portfólio
                     <br/>
                     Seja Bem-Vindo
                 </h1>
