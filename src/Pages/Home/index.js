@@ -13,7 +13,7 @@ const Section = () =>{
                     <br />
                     Meu nome é Davi Serrano,
                     <br />
-                    Sou Desenvoveldor-Web Front-End Junior
+                    Sou Desenvolvelor-Web Front-End Junior
                     <br />
                     e esse é meu portfólio
                     <br/>
@@ -22,7 +22,7 @@ const Section = () =>{
             </div>
 
             <div className="box2">
-                <h4>Curso: Técnico Adminstratio Senai: Scrum e Kanban</h4>
+                <h4>Curso: Técnico Adminstrativo Senai: Scrum e Kanban</h4>
 
                 <h4>Experiência Profissional</h4>
                 <p> <strong>Jovem aprendiz Sabesp 18 meses </strong></p>

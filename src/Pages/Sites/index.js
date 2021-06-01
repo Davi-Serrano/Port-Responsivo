@@ -43,7 +43,7 @@ function Page(){
                 {lista}
             </ul> 
 
-         <h4>Para ver mais projetos: <a href="https://github.com/DaviSerrano-FrontEnd">Acesse meu GitHub</a></h4>       
+         <h4>Para ver mais projetos: <a href="https://github.com/DaviSerrano-FrontEnd" target="_blank">Acesse meu GitHub</a></h4>       
         </div>
 
     </div>

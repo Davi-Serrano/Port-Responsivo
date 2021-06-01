@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="data:image/png;base64,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" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +23,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Davi Serrano</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
